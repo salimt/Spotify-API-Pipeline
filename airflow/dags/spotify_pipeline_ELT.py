@@ -49,6 +49,6 @@ with DAG(
         bash_command=f"python /opt/airflow/extraction/s3_to_snowflake.py {output_name}",
         dag=dag,
     )
-    s3_to_snowflake.doc_md = "Copy S3 CSV file to Redshift table"
+    s3_to_snowflake.doc_md = "Copy S3 CSV file to Snowflake table"
 
 extract_spotify_data >> s3_connect_create_load >> s3_to_snowflake
