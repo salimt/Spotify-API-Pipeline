@@ -1,32 +1,29 @@
-# Reddit ETL Pipeline
+# Spotify ELT Pipeline
 
-A data pipeline to extract Reddit data from [r/dataengineering](https://www.reddit.com/r/dataengineering/).
+A data pipeline to extract Spotify data from a playlist that is created by the class.
 
-Output is a Google Data Studio report, providing insight into the Data Engineering official subreddit.
+Output is a Google Data Studio report, providing insight into the track features and preferences.
 
 ## Motivation
 
-Project was based on an interest in Data Engineering and the types of Q&A found on the official subreddit. 
-
-It also provided a good opportunity to develop skills and experience in a range of tools. As such, project is more complex than required, utilising dbt, airflow, docker and cloud based storage.
+It provided a good opportunity to develop skills and experience in a range of tools. As such, project is more complex than required, utilising dbt, airflow, docker and cloud based storage, and usage of localstack for testing.
 
 ## Architecture
 
 <img src="https://github.com/ABZ-Aaron/Reddit-API-Pipeline/blob/master/images/workflow.png" width=70% height=70%>
 
-1. Extract data using [Reddit API](https://www.reddit.com/dev/api/)
+1. Extract data using [Spotify API](https://developer.spotify.com/)
 1. Load into [AWS S3](https://aws.amazon.com/s3/)
-1. Copy into [AWS Redshift](https://aws.amazon.com/redshift/)
+1. Copy into [Snowflake](https://www.snowflake.com/en/)
 1. Transform using [dbt](https://www.getdbt.com)
 1. Create [PowerBI](https://powerbi.microsoft.com/en-gb/) or [Google Data Studio](https://datastudio.google.com) Dashboard 
 1. Orchestrate with [Airflow](https://airflow.apache.org) in [Docker](https://www.docker.com)
-1. Create AWS resources with [Terraform](https://www.terraform.io)
 
 ## Output
 
-[<img src="https://github.com/ABZ-Aaron/Reddit-API-Pipeline/blob/master/images/GDS-Dashboard.png" width=70% height=70%>](https://datastudio.google.com/reporting/e927fef6-b605-421c-ae29-89a66e11ea18)
+[<img src="https://i.imgur.com/O89cvKU.jpeg" width=70% height=70%>](https://datastudio.google.com/reporting/e927fef6-b605-421c-ae29-89a66e11ea18)
 
-* Final output from Google Data Studio. Link [here](https://datastudio.google.com/reporting/e927fef6-b605-421c-ae29-89a66e11ea18). Note that Dashboard is reading from a static CSV output from Redshift. Redshift database was deleted so as not to incur cost.
+* Final output from Google Data Studio. Link [here](https://lookerstudio.google.com/reporting/a6785e52-ddbe-4e81-92c2-acd72112a38a/page/jAGpD). Note that Dashboard is reading from a static CSV output from Snowflake. 
 
 ## Setup
 
