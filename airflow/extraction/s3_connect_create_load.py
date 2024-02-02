@@ -30,7 +30,6 @@ bucketName = config.get('s3 config', 'bucket_name')
 
 
 def main():
-    # output_name = "track_features.csv"
     output_name = sys.argv[1]
     try:
         va.validate_input(output_name)
