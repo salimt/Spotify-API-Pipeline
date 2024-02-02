@@ -10,14 +10,14 @@ It provided a good opportunity to develop skills and experience in a range of to
 
 ## Architecture
 
-<img src="https://github.com/ABZ-Aaron/Reddit-API-Pipeline/blob/master/images/workflow.png" width=70% height=70%>
+<img src="https://i.imgur.com/rcDiMqj.jpeg" width=85% height=90%>
 
 1. Extract data using [Spotify API](https://developer.spotify.com/)
 1. Simulate AWS S3 locally for testing with [localstack](https://www.localstack.cloud/)
 1. Load into [AWS S3](https://aws.amazon.com/s3/)
 1. Copy into [Snowflake](https://www.snowflake.com/en/)
 1. Transform using [dbt](https://www.getdbt.com)
-1. Create [PowerBI](https://powerbi.microsoft.com/en-gb/) or [Google Data Studio](https://datastudio.google.com) Dashboard 
+1. Create [Google Looker Studio](https://lookerstudio.google.com/u/0/m) Dashboard 
 1. Orchestrate with [Airflow](https://airflow.apache.org) in [Docker](https://www.docker.com)
 
 ## Output
