@@ -22,7 +22,7 @@ It provided a good opportunity to develop skills and experience in a range of to
 
 ## Output
 
-[<img src="https://i.imgur.com/O89cvKU.jpeg" width=70% height=70%>](https://datastudio.google.com/reporting/e927fef6-b605-421c-ae29-89a66e11ea18)
+[<img src="https://i.imgur.com/O89cvKU.jpeg" width=85% height=85%>](https://datastudio.google.com/reporting/e927fef6-b605-421c-ae29-89a66e11ea18)
 
 * Final output from Google Data Studio. Link [here](https://lookerstudio.google.com/reporting/a6785e52-ddbe-4e81-92c2-acd72112a38a/page/jAGpD). Note that Dashboard is reading from a static CSV output from Snowflake. 
 
