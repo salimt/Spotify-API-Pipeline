@@ -1,6 +1,6 @@
 # Spotify ELT Pipeline
 
-A data pipeline to extract Spotify data from a playlist that is created by a students.
+A data pipeline to extract Spotify data from a playlist that is created by students.
 
 Output is a Google Data Studio report, providing insight into the track features and preferences.
 
