@@ -34,4 +34,3 @@ It provided a good opportunity to develop skills and experience in a range of to
   git clone https://github.com/salimt/Spotify-API-Pipeline.git
   cd Spotify-API-Pipeline
   ```
-1. [Improvements](instructions/improvements.md)
