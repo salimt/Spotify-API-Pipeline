@@ -4,7 +4,7 @@ from airflow.utils.dates import days_ago
 from datetime import datetime, timedelta
 
 """
-DAG to extract Spotify data, load into AWS S3, and copy to AWS Redshift
+DAG to extract Spotify data, load into AWS S3, and copy to Snowflake
 """
 
 # Output name of extracted file. This will be passed to each
