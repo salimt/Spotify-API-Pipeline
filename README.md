@@ -26,7 +26,7 @@ It provided a good opportunity to develop skills and experience in a range of to
 
 * Final output from Google Data Studio. Link [here](https://lookerstudio.google.com/reporting/a6785e52-ddbe-4e81-92c2-acd72112a38a/page/jAGpD). Note that Dashboard is reading from a static CSV output from Snowflake. 
 
-## Pull Repo
+## Clone using the web URL
 
 > **NOTE**: This was developed using Windows 10. If you're on Mac or Linux, you may need to amend certain components if issues are encountered.
 
