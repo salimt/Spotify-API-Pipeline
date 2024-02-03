@@ -1,4 +1,4 @@
-# Spotify ELT Pipeline
+# Spotify ELT (extract, load, and transform) Pipeline
 
 A data pipeline to extract Spotify data from a playlist that is created by students.
 
